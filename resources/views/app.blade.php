@@ -653,12 +653,8 @@
                             </li>
 
                             <li class="list-inline-item">
-                                <a href="{{ url('/denuncias/politica') }}">Política de Denúncias</a>
-                            </li>
 
-                            <li class="list-inline-item">
-
-                                <a href="#">Contactos</a>
+                                <a href="{{ url('/contactos') }}">Contactos</a>
 
                             </li>
 

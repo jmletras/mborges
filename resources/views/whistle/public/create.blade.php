@@ -9,6 +9,13 @@
                 Este canal permite a comunicação segura de irregularidades.
             </p>
 
+            <p class="text-muted mt-3">
+                Ao submeter a denúncia, declara que leu a
+                <a href="{{ url('/denuncias/politica') }}" target="_blank" class="btn btn-sm btn-info">
+                    Política de Denúncias
+                </a>.
+            </p>
+
             <div class="row mt-4">
                 <div class="col-md-6">
                     <div class="card mb-4">
