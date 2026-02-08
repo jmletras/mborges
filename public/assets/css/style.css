@@ -1,12 +1,21 @@
-/**
-* Template Name: EstateAgency - v2.1.0
-* Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
+/**
+
+* Template Name: EstateAgency - v2.1.0
+
+* Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
+
+* Author: BootstrapMade.com
+
+* License: https://bootstrapmade.com/license/
+
+*/
+
+
+
+/*--------------------------------------------------------------
+
+# General
+
 --------------------------------------------------------------*/
 body {
   font-family: 'Poppins', sans-serif;
@@ -28,7 +37,8 @@ a {
 }
 
 a:hover {
-  /*color: #2eca6a;*/
+  /*color: #2eca6a;*/
+
   color: #FF0000;
   text-decoration: none;
 }
@@ -121,7 +131,8 @@ a:hover {
 }
 
 .color-b {
-  /*color: #2eca6a;*/
+  /*color: #2eca6a;*/
+
   color: #FF0000;
 }
 
@@ -239,7 +250,8 @@ a:hover {
 }
 
 .a {
-  /*color: #2eca6a;*/
+  /*color: #2eca6a;*/
+
   color: #FF0000;
   font-size: 1.3rem;
 }
@@ -406,11 +418,11 @@ a:hover {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #2eca6a;
+  background-color: #c23035;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #2eca6a;
+  background-color: #b62c31;
   width: 35px;
 }
 
@@ -557,8 +569,10 @@ a:hover {
   }
 }
 
-/*======================================
-//--//-->   BUTTON
+/*======================================
+
+//--//-->   BUTTON
+
 ======================================*/
 .btn {
   transition: .5s ease;
@@ -576,13 +590,15 @@ a:hover {
 }
 
 .btn.btn-a:hover {
-  /*background-color: #2eca6a;*/
+  /*background-color: #2eca6a;*/
+
   background-color: #FF0000;
   color: #000000;
 }
 
 .btn.btn-b {
-  /*background-color: #2eca6a;*/
+  /*background-color: #2eca6a;*/
+
   background-color: #FF0000;
   color: #000000;
 }
@@ -593,20 +609,24 @@ a:hover {
 }
 
 .btn.btn-b-n {
-  /*background-color: #2eca6a;*/
+  /*background-color: #2eca6a;*/
+
   background-color: #FF0000;
   color: #ffffff;
   border-radius: 0;
 }
 
 .btn.btn-b-n:hover {
-  /*background-color: #26a356;*/
+  /*background-color: #26a356;*/
+
   color: #FF0000;
   color: #ffffff;
 }
 
-/*--------------------------------------------------------------
-# Navbar
+/*--------------------------------------------------------------
+
+# Navbar
+
 --------------------------------------------------------------*/
 .navbar-default {
   transition: all .5s ease-in-out;
@@ -690,7 +710,8 @@ a:hover {
 }
 
 .navbar-default.navbar-trans .nav-link:before {
-  /*background-color: #2eca6a;*/
+  /*background-color: #2eca6a;*/
+
   background-color: #FF0000;
 }
 
@@ -768,14 +789,16 @@ a:hover {
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item:hover {
   background-color: #ffffff;
-  /*color: #2eca6a;*/
+  /*color: #2eca6a;*/
+
   color: #FF0000;
   transition: all 500ms ease;
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item.active {
   background-color: #ffffff;
-  /*color: #2eca6a;*/
+  /*color: #2eca6a;*/
+
   color: #FF0000;
 }
 
@@ -835,8 +858,10 @@ a:hover {
   opacity: 0.9;
 }
 
-/*======================================
-//--//-->   BOX COLAPSE
+/*======================================
+
+//--//-->   BOX COLAPSE
+
 ======================================*/
 .box-collapse {
   position: fixed;
@@ -953,8 +978,10 @@ a:hover {
   right: 4.2857rem;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
+/*--------------------------------------------------------------
+
+# Hero Section
+
 --------------------------------------------------------------*/
 .intro {
   height: 100vh;
@@ -984,7 +1011,8 @@ a:hover {
 }
 
 .intro .owl-theme .owl-dots .owl-dot.active span {
-  /*background-color: #2eca6a;*/
+  /*background-color: #2eca6a;*/
+
   background-color: #FF0000;
 }
 
@@ -1160,15 +1188,18 @@ a:hover {
   padding-left: 0;
 }
 
-/*--------------------------------------------------------------
-# Card General
+/*--------------------------------------------------------------
+
+# Card General
+
 --------------------------------------------------------------*/
 @media (max-width: 767px) {
   .card-box-a,
   .card-box-b,
   .card-box-c,
   .card-box-d {
-    margin-top: 1rem;  
+    margin-top: 1rem;  
+
     margin-bottom: 1.5rem;
   }
 }
@@ -1177,7 +1208,8 @@ a:hover {
   .grid .card-box-a,
   .grid .card-box-b,
   .grid .card-box-c,
-  .grid .card-box-d {
+  .grid .card-box-d {
+
 	margin-top: 1.2rem;  
     margin-bottom: 1rem;
   }
@@ -1246,8 +1278,10 @@ a:hover {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 27%, rgba(0, 0, 0, 0.65) 90%);
 }
 
-/*======================================
-//--//-->   PROPERTY - CARD-A
+/*======================================
+
+//--//-->   PROPERTY - CARD-A
+
 ======================================*/
 @media (min-width: 768px) {
   .card-box-a:hover .card-overlay-a-content {
@@ -1352,7 +1386,8 @@ a:hover {
   width: 100%;
   position: absolute;
   z-index: 2;
-  /*background-color: #2eca6a;*/
+  /*background-color: #2eca6a;*/
+
   background-color: #ED1C24;
 }
 
@@ -1468,8 +1503,10 @@ a:hover {
   }
 }
 
-/*======================================
-//--//-->   NEWS - CARD-B
+/*======================================
+
+//--//-->   NEWS - CARD-B
+
 ======================================*/
 .card-header-b {
   padding: 1rem;
@@ -1637,8 +1674,10 @@ a:hover {
   margin-left: 40px;
 }
 
-/*======================================
-//--//-->   SERVICES - CARD-C
+/*======================================
+
+//--//-->   SERVICES - CARD-C
+
 ======================================*/
 .card-box-c {
   position: relative;
@@ -1670,23 +1709,29 @@ a:hover {
 
 .card-box-ico {
   /*padding: 1rem 3rem 1rem 2.5rem;*/
-  /*border: 5px solid #2eca6a;*/
-  
-  padding: 0rem 0rem 0rem 0rem;
+  /*border: 5px solid #2eca6a;*/
+
+  
+
+  padding: 0rem 0rem 0rem 0rem;
+
   /*border: 5px solid #FF0000;*/
 }
 
 .card-box-ico span {
   font-size: 3rem;
-  /*color: #000000;*/
+  /*color: #000000;*/
+
   color: #FF0000;
 }
 
 .title-c {
   font-size: 1.7rem;
   font-weight: 600;
-  /*margin-left: -40px;*/
-  margin-left: 5px;
+  /*margin-left: -40px;*/
+
+  margin-left: 5px;
+
   
 }
 
@@ -1702,8 +1747,10 @@ a:hover {
   }
 }
 
-/*======================================
-//--//-->   AGENTS - CARD-D
+/*======================================
+
+//--//-->   AGENTS - CARD-D
+
 ======================================*/
 .card-box-d .card-overlay-hover {
   transition: all .2s ease-in-out;
@@ -1826,8 +1873,10 @@ a:hover {
   margin-right: 1.5rem;
 }
 
-/*--------------------------------------------------------------
-# About Section
+/*--------------------------------------------------------------
+
+# About Section
+
 --------------------------------------------------------------*/
 .section-about .title-vertical {
   position: absolute;
@@ -1939,8 +1988,10 @@ a:hover {
   }
 }
 
-/*--------------------------------------------------------------
-# Testimonials Section
+/*--------------------------------------------------------------
+
+# Testimonials Section
+
 --------------------------------------------------------------*/
 .testimonials-box {
   padding: 1rem 0;
@@ -1995,8 +2046,10 @@ a:hover {
   color: #000000;
 }
 
-/*--------------------------------------------------------------
-# Contact Section
+/*--------------------------------------------------------------
+
+# Contact Section
+
 --------------------------------------------------------------*/
 .form-as #sendmessage {
   color: #2eca6a;
@@ -2142,8 +2195,10 @@ a:hover {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
+/*--------------------------------------------------------------
+
+# Footer
+
 --------------------------------------------------------------*/
 .section-footer {
   padding-top: 60px;
