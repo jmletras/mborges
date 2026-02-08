@@ -14,6 +14,7 @@ class AuthServiceProvider extends ServiceProvider
      */
     protected $policies = [
         // 'App\Model' => 'App\Policies\ModelPolicy',
+        \App\WhistleReport::class => \App\Policies\WhistleReportPolicy::class,
     ];
 
     /**
@@ -25,6 +26,8 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+        Gate::define('manage-whistleblowing', function ($user) {
+            return $user->id === 1 || $user->id === 2;
+        });
     }
 }
