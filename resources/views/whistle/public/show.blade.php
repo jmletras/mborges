@@ -7,6 +7,8 @@
 
             <p><strong>Estado:</strong> {{ ucfirst($report->status) }}</p>
 
+            <p>{{ $report->description }}</p>
+
             <hr>
 
             @include('whistle.partials.messages', [

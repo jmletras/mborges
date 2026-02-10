@@ -4,11 +4,13 @@ namespace App\Http\Controllers;
 
 use App\WhistleReport;
 use App\WhistleMessage;
+use App\User;
 // use App\WhistleAttachment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 // use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use App\Notifications\NewWhistleReportNotification;
 
 class PublicWhistleReportController extends Controller
 {
@@ -78,6 +80,12 @@ class PublicWhistleReportController extends Controller
       // }
 
       DB::commit();
+
+      $admins = User::where('id', 2)->get();
+
+      foreach ($admins as $admin) {
+        $admin->notify(new NewWhistleReportNotification($report));
+      }
 
       return redirect()
         ->route('whistle.thankyou', $report->uuid);

@@ -14,6 +14,8 @@
                 <strong>Anónimo:</strong> {{ $report->is_anonymous ? 'Sim' : 'Não' }}
             </p>
 
+            <p>{{ $report->description }}</p>
+
             {{-- Dados do denunciante (apenas se NÃO for anónimo) --}}
             @if (!$report->is_anonymous)
                 <div class="alert alert-secondary">
